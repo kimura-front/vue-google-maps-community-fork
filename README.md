@@ -1,3 +1,13 @@
+## Note for the community
+
+Hey guys, today is 18/12/2024 and I'm doing this update to address you on the current situation of this library.
+
+To be honest I cannot help it improve anymore because my life changed too much in the last year. That said, you probably should be using [vue3-google-map](https://www.npmjs.com/package/vue3-google-map) for now on because their job is incredible and they're doing a great project for Google Maps features. Sorry to let you guys down but I prefer to be honest than say something that I won't be able to handle.
+
+I'm not turning it into deprecated yet, but probably will do soon. This project is awesome and it worked like a charm for me but I believe it would need an entire refactor to TS to make it better and scalable. Fawmi's code was so good that even after two and half years of no updates it still had 2.5k weekly downloads.
+
+Anyway, thanks for everything and sorry again. Much love and luck.
+
 ## Welcome!
 
 Hi! Vue Google Maps Community Fork is a communitary repository. It is a set of the most used Google Maps components made for VueJS 3.
