@@ -87,7 +87,17 @@ export default buildComponent({
   mappedProps: props,
   events,
   name: 'marker',
-  ctr: () => google.maps.marker.AdvancedMarkerElement,
+  ctr: () => {
+  const markerCtor =
+    window?.google?.maps?.marker?.AdvancedMarkerElement ??
+    null
+
+  if (!markerCtor) {
+    throw new Error('google.maps.marker.AdvancedMarkerElement is not available yet.')
+  }
+
+  return markerCtor
+},
 
   inject: {
     $clusterPromise: {
